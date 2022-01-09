@@ -12,6 +12,13 @@ MS-COCO This dataset has around 120k images with 5 captions for image Because of
 * **MS-COCO** 
   * This dataset has around 120k images with 5 captions for image. Because of our low GPU configuration, we kept our training images to be 25,600 and 6000 images for validation.
 
+#### Model architecture
+
+<img width="409" alt="image" src="https://user-images.githubusercontent.com/60562906/148677557-b45cdf14-cc99-483a-9a86-76fa1dbf4a8d.png">
+
+The model consists of 3 parts namely, the encoder, decoder and attention mechanism. 
+For the purpose of encoder, we have used a Convolutional Neural Network, Inception v3, which is pre-trained on IMAGENET dataset for classification. For our purpose where we need to get the features encoded, we remove the last layer which is used for classification purpose. Using visual attention mechanism., we make the decoder be able to look at different parts of the image at every time step in the sequence.
+
 #### Training parameters:
 Following are a few key hyperparameters that we retained across various models. These could be helpful for attempting to reproduce our results.
 RNN Size 512
