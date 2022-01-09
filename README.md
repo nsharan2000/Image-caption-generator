@@ -1,4 +1,4 @@
-# Image-caption-generator
+# Image-caption-generator with visual attention mechanism
 <img width="302" alt="image" src="https://user-images.githubusercontent.com/60562906/148676855-3a5a82d0-f55d-43b2-a83b-fce82721bbc9.png">
 
 #### Abstract
