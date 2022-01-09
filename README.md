@@ -21,13 +21,21 @@ For the purpose of encoder, we have used a Convolutional Neural Network, Incepti
 
 #### Training parameters:
 Following are a few key hyperparameters that we retained across various models. These could be helpful for attempting to reproduce our results.
+
 RNN Size 512
+
 Batch size 64
+
 Learning Rate 4e-4
+
 RNN Sequence max
+
 length 16
+
 Epochs 30
+
 Vocabulary size 5000
+
 
 * It takes around 1 hour for training with Flickr8k dataset
 * It took around 10 hours for training with COCO dataset.
