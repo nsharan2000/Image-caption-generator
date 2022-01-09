@@ -34,7 +34,8 @@ Vocabulary size 5000
 
 #### Results:
 Checking the accuracy of the model is tricky as the output is a sequence of words which could be correct even if the predicted caption is not exactly matching with the original caption. BLEU score can be used to measure the performance of the model.
-final bleu score:  0.008854687515522356
+
+Final bleu score:  0.008854
 
 #### References
 * Show and Tell: A Neural Image Caption Generator - Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan
