@@ -5,11 +5,11 @@
 Writing captions of images has always required the help of human’s knowledge in order to write catchy captions. Here in this project we have implemented the task of using a deep learning model, to automatically generate captions for images using visual attention mechanism. We have also shown visually how the model automatically learns to focus on specific parts of images, while predicting the corresponding words of the output sequence accurately. We have used two benchmark datasets – Flickr8k, MS COCO for our model
 
 #### Datasets used:
-* **Flickr - 8k
+* **Flickr - 8k**
   * This dataset has around 8k images with 5 captions given for each image. Since it has very few images, we have used (Caption_1, Image), (Caption_2, Image) and so on... for all the 5 captions making the dataset comprise around 40k imagecaption pair. From this, 32000 images have been used for training and 8000 for validation, with the split ratio 0.2
 MS-COCO This dataset has around 120k images with 5 captions for image Because of our GPU configuration, we kept our training images to be 25,600 and 6000 images for validation
 
-* **MS-COCO 
+* **MS-COCO** 
   * This dataset has around 120k images with 5 captions for image. Because of our low GPU configuration, we kept our training images to be 25,600 and 6000 images for validation.
 
 #### Training parameters:
